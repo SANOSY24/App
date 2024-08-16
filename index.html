@@ -16,7 +16,7 @@
 
         .container {
             display: flex;
-            flex-wrap: wrap; /* Ensure content wraps on smaller screens */
+            flex-wrap: wrap;
             max-width: 1200px;
             margin: auto;
             padding: 20px;
@@ -28,6 +28,7 @@
             padding: 20px 0;
             text-align: center;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
         }
 
         header h1 {
@@ -42,8 +43,8 @@
         }
 
         .sidebar {
-            width: 100%; /* Full width on small screens */
-            max-width: 250px; /* Limit width on larger screens */
+            width: 100%;
+            max-width: 250px;
             background-color: #00264d;
             color: white;
             padding: 20px;
@@ -78,11 +79,13 @@
             background-color: white;
             padding: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            width: 100%; /* Full width on small screens */
+            width: 100%;
         }
 
         .content h2 {
             color: #004080;
+            border-bottom: 2px solid #004080;
+            padding-bottom: 5px;
         }
 
         .content .section {
@@ -91,6 +94,7 @@
 
         .content h3 {
             margin-top: 0;
+            color: #00264d;
         }
 
         .content h4 {
@@ -104,10 +108,10 @@
         }
 
         .profile-img {
-            max-width: 100px;
+            max-width: 120px;
             border-radius: 50%;
             display: block;
-            margin: 0 auto; /* Center the image */
+            margin: 0 auto;
         }
 
         .footer {
@@ -132,7 +136,10 @@
             margin-bottom: 5px;
         }
 
-        /* Ensure responsive layout */
+        p, li {
+            text-align: justify;
+        }
+
         @media screen and (max-width: 768px) {
             .container {
                 flex-direction: column;
@@ -159,23 +166,24 @@
             </div>
             <h2>Contact Info</h2>
             <p><strong>Email:</strong> <a href="mailto:alsanosyabdallah@outlook.com">alsanosyabdallah@outlook.com</a></p>
-            <p><strong>Phone:</strong> +249116522297 / +249911369751</p>
-            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/hamed-alsanosy-26714969" target="_blank">linkedin.com/in/hamed-alsanosy-26714969</a></p>
+            <p><strong>Mobile:</strong> +249911369751</p>
+            <p><strong>Mobile:</strong> +249116522297</p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/hamed-musa-alsanosy-26714969/" target="_blank">linkedin.com/in/hamed-alsanosy-26714969</a></p>
 
             <h2>Skills</h2>
             <div class="skills">
                 <ul>
                     <li>Microsoft Office</li>
                     <li>SAP</li>
-                    <li>MAXIMO</li>
-                    <li>CCNA</li>
-                    <li>MCSA</li>
-                    <li>Azure</li>
                     <li>MATLAB</li>
                     <li>ETAP</li>
                     <li>PSSE</li>
                     <li>SCADA</li>
                     <li>PLC</li>
+                    <li>Basic Knowledge of MAXIMO</li>
+                    <li>Basic Knowledge of CCNA</li>
+                    <li>Basic Knowledge of MCSA</li>
+                    <li>Basic Knowledge of Azure</li>
                     <li>Power Plants</li>
                     <li>Industrial Automation Engineering</li>
                     <li>Energy Management System (EnMS) ISO 50001</li>
@@ -187,8 +195,9 @@
         <div class="content">
             <div class="section">
                 <h2>SUMMARY</h2>
-                <p>Experienced Electrical Engineer with over a decade of expertise in power plant operations within the oil & gas and sugar industries. Skilled in maintaining and optimizing power generation systems, ensuring high efficiency, reliability, and compliance with safety and environmental standards. Adept at troubleshooting, leading maintenance teams, and implementing process improvements to enhance operational performance.</p>
-            </div>
+                <p>Experienced Electrical Engineer with over a decade of work in power plant operations within the oil & gas and sugar industries. Proven track record in optimizing power generation systems for peak performance, ensuring operational efficiency, and maintaining high safety and environmental standards. Skilled in troubleshooting complex electrical issues, leading maintenance teams, and implementing process improvements to enhance system reliability and reduce operational costs. Demonstrated ability to manage important projects and drive continuous improvement in dynamic and challenging environments.</p>
+            </div>            
+            
             <div class="section">
                 <h2>Education</h2>
                 <h3>Master of Science (MSc) in Electrical Power Engineering</h3>
@@ -231,7 +240,7 @@
     </div>
 
     <footer class="footer">
-        <p>&copy; 2024 HAMED MUSA ALSANOSY ABDALLAH. All rights reserved.</p>
+        <p>&copy; 2024 All rights reserved.</p>
     </footer>
 
 </body>
